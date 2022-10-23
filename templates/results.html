@@ -11,8 +11,9 @@
 <h1 style="text-align: center">Education Pathways</h1>
 
 <body>
+  <h3>Search for Courses</h3>
     {% from "_formhelpers.html" import render_field %}
-    <form method="post">
+    <form method="post" class="common-page-form">
       <dl>
         {{ render_field(form.select) }}
         <p>
@@ -21,11 +22,16 @@
         <p>
         {{ render_field(form.search) }}
       </p></dl>
-      <p>{{render_field(form.top)}} <input type="submit" value="Search">
+      <p>{{render_field(form.top)}} <button type="submit" class="common-page-submit-btn">Search</button>
       </p></form>
+
+      <h3>Search Results</h3>
     
-{% for table in tables %}
+<div id="results-page-table-container"> 
+  {% for table in tables %}
             {{ table|safe }}
-{% endfor %}
+  {% endfor %}
+</div>
+
 </body>
 </html>
