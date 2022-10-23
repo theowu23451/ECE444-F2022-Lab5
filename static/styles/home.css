@@ -1,0 +1,11 @@
+.home-page-introduction {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.home-page-feedback-text {
+    margin-top: 20px,;
+    font-style: italic;
+    color: rgba(53, 53, 53, 0.705);
+}
