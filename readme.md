@@ -23,6 +23,7 @@ This repo is a clone of https://github.com/nelaturuk/education_pathways
 
 #### User Story 3.1
 ![image](https://user-images.githubusercontent.com/50794673/197643569-e5c2bd62-73e2-464d-9c23-ecad21d06d16.png)
+<img width="1361" alt="image" src="https://user-images.githubusercontent.com/45493463/197645746-22f544ea-81e7-4644-bd78-f23d1564ff04.png">
 
 
 #### User Story 3.2
